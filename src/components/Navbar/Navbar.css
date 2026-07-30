@@ -38,7 +38,6 @@
     font-weight: bold;
     border-bottom: 2px solid var(--accent);
 }
-
 /* === MOBILE NAVIGATION === */
 .menu-toggle {
 display: none;
@@ -69,5 +68,4 @@ gap: 20px;
 display: flex;
 }
 }
-
 
