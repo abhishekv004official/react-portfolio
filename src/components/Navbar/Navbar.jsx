@@ -34,7 +34,7 @@ function Navbar({ theme, toggleTheme }) {
                 </ul>
  
                 <div style={{ display: 'flex', gap: '15px', alignItems: 'center' }}>
-                    <button className="theme-toggle" onClick={toggleTheme}>
+                    <button className="theme-toggle" onClick={toggleTheme} style={{borderRadius:'50%'}}>
                         {theme === "dark" ? "☀️" : "🌙"}
                     </button>
  
